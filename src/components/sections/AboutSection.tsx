@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { MapPin, Calendar, Code, Coffee, Heart, Rocket } from 'lucide-react';
-import TextBehindImage from "../assets/images/text-behind-image.png";
+import TextBehindImage from "../../assets/images/text-behind-image.png";
 const AboutSection: React.FC = () => {
   const [ref, inView] = useInView({ threshold: 0.3, triggerOnce: true });
 
