@@ -168,7 +168,7 @@ const AboutSection: React.FC = () => {
                 className="space-y-6 text-gray-600 dark:text-gray-300 leading-relaxed"
               >
                 <p className="text-lg">
-                  A passionate and dedicated <span className="font-semibold text-blue-600 dark:text-blue-400">fresher</span> in 
+                  A passionate && dedicated <span className="font-semibold text-blue-600 dark:text-blue-400">fresher</span> in 
                   the field of software development, eager to contribute to innovative projects and grow in the tech industry. 
                   With a strong foundation in programming and a keen interest in emerging technologies.
                 </p>
