@@ -29,7 +29,7 @@ const projects: Project[] = [
     id: 2,
     title: 'AI Chat Bot ',
     description: 'Intelligent chatbot with natural language processing and machine learning capabilities.',
-      image: aiChatbotImg,
+      image: projectThumbnail,
     technologies: ['Python', 'TensorFlow', 'FastAPI', 'React'],
     githubUrl: 'https://github.com/Arihant-jainn/AI-CHAT-BOT?tab=readme-ov-file',
     liveUrl: 'https://demo.chat-sdk.dev/',
