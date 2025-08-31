@@ -118,7 +118,7 @@ const AboutSection: React.FC = () => {
                 className="relative w-full h-full bg-gradient-to-br from-gray-200 to-gray-300 dark:from-gray-700 dark:to-gray-800 rounded-full flex items-center justify-center overflow-hidden shadow-2xl border-4 border-white dark:border-gray-600"
               >
                 <img
-                  src="https://github.com/Arihant-jainn/AJ/blob/main/src/assets/images/text-behind-image.png"
+                  src="src/assets/images/text-behind-image.png"
                   alt="Arihant Jain - Full Stack Developer"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
