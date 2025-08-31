@@ -19,7 +19,7 @@ const projects: Project[] = [
     id: 1,
     title: ' AI Stock Market Analyzer',
     description: 'An AI-powered web app that analyzes financial news and social media to provide real-time stock sentiment insights and predictions.',
-    image: 'src/assets/projects/ChatGPT Image Aug 20, 2025, 06_53_21 PM.png',
+    image: 'https://github.com/Arihant-jainn/AJ/blob/main/src/assets/projects/ChatGPT%20Image%20Aug%2020%2C%202025%2C%2006_53_21%20PM.png',
     technologies: ['Python', 'TensorFlow', 'FastAPI', 'React'],
     githubUrl: 'https://github.com/Arihant-jainn/Market-Analyzer/blob/main/README.md',
     liveUrl: 'https://market-analyzer-dashboard.vercel.app/',
