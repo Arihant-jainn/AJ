@@ -40,7 +40,7 @@ const projects: Project[] = [
     id: 3,
     title: 'Task Management App',
     description: 'Collaborative project management tool with real-time updates and team coordination features.',
-    image: 'https://cdn.pixabay.com/photo/2016/09/12/21/57/earthquake-1665878_1280.jpg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://images.pexels.com/photos/11518764/pexels-photo-11518764.jpeg?auto=compress&cs=tinysrgb&w=600',
     technologies: ['Vue.js', 'Express', 'PostgreSQL', 'Socket.io'],
     githubUrl: 'https://github.com/arihantjain',
     liveUrl: '#',
