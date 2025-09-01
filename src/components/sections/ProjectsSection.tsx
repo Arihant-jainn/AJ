@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { ExternalLink, Github, Play, ArrowRight } from 'lucide-react';
 import chatImg from '../../assets/projects/chat.jpg';
+import Analyzer from '../../assets/projects/Analyzer.png';
 interface Project {
   id: number;
   title: string;
@@ -19,7 +20,7 @@ const projects: Project[] = [
     id: 1,
     title: ' AI Stock Market Analyzer',
     description: 'An AI-powered web app that analyzes financial news and social media to provide real-time stock sentiment insights and predictions.',
-    image: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: Analyzer,
     technologies: ['Python', 'TensorFlow', 'FastAPI', 'React'],
     githubUrl: 'https://github.com/Arihant-jainn/Market-Analyzer/blob/main/README.md',
     liveUrl: 'https://market-analyzer-dashboard.vercel.app/',
