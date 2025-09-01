@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { ExternalLink, Github, Play, ArrowRight } from 'lucide-react';
-
+import chatImg from '../assets/projects/chat.jpg';
 interface Project {
   id: number;
   title: string;
@@ -29,7 +29,7 @@ const projects: Project[] = [
     id: 2,
     title: 'AI Chat Bot ',
     description: 'Intelligent chatbot with natural language processing and machine learning capabilities.',
-      image:  "/chat.jpg",
+    image: chatImg,
     technologies: ['Python', 'TensorFlow', 'FastAPI', 'React'],
     githubUrl: 'https://github.com/Arihant-jainn/AI-CHAT-BOT?tab=readme-ov-file',
     liveUrl: 'https://demo.chat-sdk.dev/',
