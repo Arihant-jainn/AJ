@@ -2,8 +2,8 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { ExternalLink, Github, Play, ArrowRight } from 'lucide-react';
-import chatImg from '../../assets/projects/chat.jpg';
-import Analyzer from '../../assets/projects/Analyzer.png';
+
+
 interface Project {
   id: number;
   title: string;
@@ -20,7 +20,7 @@ const projects: Project[] = [
     id: 1,
     title: ' AI Stock Market Analyzer',
     description: 'An AI-powered web app that analyzes financial news and social media to provide real-time stock sentiment insights and predictions.',
-    image: Analyzer,
+    image:  'https://images.pexels.com/photos/6781008/pexels-photo-6781008.jpeg?auto=compress&cs=tinysrgb&w=600',
     technologies: ['Python', 'TensorFlow', 'FastAPI', 'React'],
     githubUrl: 'https://github.com/Arihant-jainn/Market-Analyzer/blob/main/README.md',
     liveUrl: 'https://market-analyzer-dashboard.vercel.app/',
@@ -30,7 +30,7 @@ const projects: Project[] = [
     id: 2,
     title: 'AI Chat Bot ',
     description: 'Intelligent chatbot with natural language processing and machine learning capabilities.',
-    image: chatImg,
+    image: 'https://images.pexels.com/photos/9783812/pexels-photo-9783812.jpeg?auto=compress&cs=tinysrgb&w=600',
     technologies: ['Python', 'TensorFlow', 'FastAPI', 'React'],
     githubUrl: 'https://github.com/Arihant-jainn/AI-CHAT-BOT?tab=readme-ov-file',
     liveUrl: 'https://demo.chat-sdk.dev/',
@@ -38,12 +38,12 @@ const projects: Project[] = [
   },
   {
     id: 3,
-    title: 'Task Management App',
+    title: 'earthquake Visulizer',
     description: 'Collaborative project management tool with real-time updates and team coordination features.',
     image: 'https://images.pexels.com/photos/11518764/pexels-photo-11518764.jpeg?auto=compress&cs=tinysrgb&w=600',
     technologies: ['Vue.js', 'Express', 'PostgreSQL', 'Socket.io'],
-    githubUrl: 'https://github.com/arihantjain',
-    liveUrl: '#',
+    githubUrl: 'https://github.com/Arihant-jainn/Earthquake-Visualizer',
+    liveUrl: 'https://earthquake-visualizer-aj.vercel.app/',
     category: 'web'
   },
   {
