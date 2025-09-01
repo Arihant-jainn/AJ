@@ -181,7 +181,7 @@ const AboutSection: React.FC = () => {
                 
                 <p>
                   When I'm not coding, you'll find me exploring new technologies, writing tech blogs, crafting poetry, 
-                  or contributing to open-source projects. I believe in continuous learning and staying updated with industry trends.
+                  or contributing to open-source projects. I believe in continuous learning and staying updated with industry trends and AI.
                 </p>
               </motion.div>
             </div>
