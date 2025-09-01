@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { ExternalLink, Github, Play, ArrowRight } from 'lucide-react';
-import chatImg from '../assets/projects/chat.jpg';
+import chatImg from '../../assets/projects/chat.jpg';
 interface Project {
   id: number;
   title: string;
